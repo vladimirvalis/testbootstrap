@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <title>Fechas</title>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./estadios.html">Estadios</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./estadios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Estadios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Al Bait</a></li>
+              <li><a class="dropdown-item" href="#">Al Yanub</a></li>
+              <li><a class="dropdown-item" href="#">Áhmad bin Ali</a></li>
+              <li><a class="dropdown-item" href="#">Al Zumama</a></li>
+              <li><a class="dropdown-item" href="#">Estadio de la Ciudad de la Educación</a></li>
+              <li><a class="dropdown-item" href="#">Jalifa</a></li>
+              <li><a class="dropdown-item" href="#">Lusail</a></li>
+              <li><a class="dropdown-item" href="#">974</a></li>
+              
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./fechas.html">Fechas</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col-4">
+      <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#grupos">Fase de Grupos</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#grupos-a">Grupo A</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-b">Grupo B</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-c">Grupo C</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-d">Grupo D</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-e">Grupo E</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-f">Grupo F</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-g">Grupo G</a>
+            <a class="nav-link ms-3 my-1" href="#grupos-h">Grupo H</a>
+          </nav>
+          <a class="nav-link" href="#octavos">Octavos de Final</a>
+          <a class="nav-link" href="#cuartos">Cuartos de Final</a>
+          <a class="nav-link" href="#semi">Semifinal</a>
+          <a class="nav-link" href="#tercer-lugar">Partido por el 3° lugar</a>
+          <a class="nav-link" href="#final">Final</a>
+        </nav>
+      </nav>
+    </div>
+  
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+        <div id="grupos">
+          <h4>Fase de Grupos</h4>
+        </div>
+        <div id="grupos-a">
+          <h5>Grupo A</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">20/11</th>
+                <td>Qatar - Ecuador</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">21/11</th>
+                <td>Senegal - Países Bajos</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">25/11</th>
+                <td>Qatar - Senegal</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">25/11</th>
+                <td>Ecuador - Países Bajos</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">29/11</th>
+                <td>Qatar - Países Bajos</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <th scope="row">29/11</th>
+                <td>Ecuador - Senegal</td>
+                <td>12:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-b">
+          <h5>Grupo B</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">21/11</th>
+                <td>Inglaterra - Irán</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">21/11</th>
+                <td>Estados Unidos - Gales</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">25/11</th>
+                <td>Inglaterra - Estados Unidos</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">25/11</th>
+                <td>Irán - Gales</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">29/11</th>
+                <td>Inglaterra - Gales</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">29/11</th>
+                <td>Irán - Estados Unidos</td>
+                <td>16:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-c">
+          <h5>Grupo C</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">22/11</th>
+                <td>Argentina - Arabia Saudita</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">22/11</th>
+                <td>México - Polonia</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">26/11</th>
+                <td>Argentina - México</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">26/11</th>
+                <td>Arabia Saudita - Polonia</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">30/11</th>
+                <td>Polonia - Argentina</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">30/11</th>
+                <td>Arabia Saudita - México</td>
+                <td>16:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-d">
+          <h5>Grupo D</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">22/11</th>
+                <td>Francia - Australia</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">22/11</th>
+                <td>Dinamarca - Túnez</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">26/11</th>
+                <td>Francia - Dinamarca</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">26/11</th>
+                <td>Australia - Túnez</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">30/11</th>
+                <td>Francia - Túnez</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <th scope="row">30/11</th>
+                <td>Australia - Dinamarca</td>
+                <td>12:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-e">
+          <h5>Grupo E</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">23/11</th>
+                <td>España - Costa Rica</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">23/11</th>
+                <td>Alemania - Japón</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">27/11</th>
+                <td>España - Alemania</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">27/11</th>
+                <td>Costa Rica - Japón</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">01/12</th>
+                <td>España - Japón</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">01/12</th>
+                <td>Costa Rica - Alemania</td>
+                <td>16:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-f">
+          <h5>Grupo F</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">23/11</th>
+                <td>Bélgica - Canadá</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">23/11</th>
+                <td>Marruecos - Croacia</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">27/11</th>
+                <td>Bélgica - Marruecos</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">27/11</th>
+                <td>Canadá - Croacia</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">01/12</th>
+                <td>Bélgica - Croacia</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <th scope="row">01/12</th>
+                <td>Canadá - Marruecos</td>
+                <td>12:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-g">
+          <h5>Grupo G</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">24/11</th>
+                <td>Brasil - Serbia</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">24/11</th>
+                <td>Suiza - Camerún</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">28/11</th>
+                <td>Brasil - Suiza</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">28/11</th>
+                <td>Serbia - Camerún</td>
+                <td>07:00</td>
+              </tr>
+              <tr>
+                <th scope="row">02/12</th>
+                <td>Brasil - Camerún</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">02/12</th>
+                <td>Serbia - Suiza</td>
+                <td>16:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="grupos-h">
+          <h5>Grupo H</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Partido</th>
+                <th scope="col">Horario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">24/11</th>
+                <td>Portugal - Ghana</td>
+                <td>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">24/11</th>
+                <td>Uruguay - Corea del Sur</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">28/11</th>
+                <td>Portugal - Uruguay</td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">28/11</th>
+                <td>Ghana - Corea del Sur</td>
+                <td>10:00</td>
+              </tr>
+              <tr>
+                <th scope="row">02/12</th>
+                <td>Portugal - Corea del Sur</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <th scope="row">02/12</th>
+                <td>Ghana - Uruguay</td>
+                <td>12:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="octavos">
+        <h4>Octavos de Final</h4>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Partido</th>
+              <th scope="col">Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">03/12</th>
+              <td>1A - 2B</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <th scope="row">03/12</th>
+              <td>1C - 2D</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">04/12</th>
+              <td>1B - 2A</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">04/12</th>
+              <td>1D - 2C</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <th scope="row">05/12</th>
+              <td>1E - 2F</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <th scope="row">05/12</th>
+              <td>1G - 2H</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">06/12</th>
+              <td>1F - 2E</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <th scope="row">06/12</th>
+              <td>1H - 2G</td>
+              <td>16:00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <div id="cuartos">
+        <h4>Cuartos de Final</h4>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Partido</th>
+              <th scope="col">Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">09/12</th>
+              <td>G OF1 - G OF2</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">09/12</th>
+              <td>G OF3 - G OF4</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <th scope="row">10/12</th>
+              <td>G OF5 - G OF6</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">10/12</th>
+              <td>G OF7 - G OF8</td>
+              <td>12:00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <div id="semi">
+        <h4>Semifinal</h4>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Partido</th>
+              <th scope="col">Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">13/12</th>
+              <td>G CF1 - G OF2</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">14/12</th>
+              <td>G CF3 - G CF4</td>
+              <td>16:00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      
+      <div id="tercer-lugar">
+        <h4>Partido por el 3° lugar</h4>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Partido</th>
+              <th scope="col">Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">17/12</th>
+              <td>P SF1 - P SF2</td>
+              <td>12:00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <div id="final">
+        <h4>Final</h4>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Partido</th>
+              <th scope="col">Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">18/12</th>
+              <td>G SF1 - G SF2</td>
+              <td>12:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-dark" role="alert">
+    Página desarrollada por <a href="https://github.com/vladimirvalis" class="alert-link">Vladimir Valis</a>.
+  </div>
+
+  <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
